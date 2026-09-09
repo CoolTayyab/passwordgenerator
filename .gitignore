@@ -1,0 +1,30 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+
+# Secrets
+data/token.json
+data/secret.key
+data/firebase_key.json
+data/master.hash
+assets/client_secret.json
+
+# Local/private data
+data/history.json
+
+# Environment variables
+.env
+.env.*
+
+# Build files
+build/
+dist/
+*.spec
